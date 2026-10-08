@@ -1,6 +1,6 @@
 # Acties en besluiten
 
-Bij [[Werkbank/Een project plannen/01 - Mijn plan.md|Mijn plan]].
+Bij [[Schrijftafel/Een project plannen/01 - Mijn plan.md|Mijn plan]].
 
 ## Eerst doen
 

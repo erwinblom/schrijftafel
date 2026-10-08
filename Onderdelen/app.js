@@ -134,7 +134,7 @@
         }
 
         async function clearIndexedDB() {
-            if (!confirm('Werkbank leegmaken? Gekoppelde mappen worden vergeten en lokale conversies verwijderd. Je bestanden op de computer blijven bestaan.')) {
+            if (!confirm('Schrijftafel leegmaken? Gekoppelde mappen worden vergeten en lokale conversies verwijderd. Je bestanden op de computer blijven bestaan.')) {
                 return;
             }
             
@@ -1801,7 +1801,7 @@
                         }
                     }
                     
-                    if (await (await activeFile.getFile()).text() !== originalRawContent) throw Error('Dit bestand is buiten de Werkbank gewijzigd. Je bewerking blijft in de editor; heropen het bestand voordat je verdergaat.');
+                    if (await (await activeFile.getFile()).text() !== originalRawContent) throw Error('Dit bestand is buiten de Schrijftafel gewijzigd. Je bewerking blijft in de editor; heropen het bestand voordat je verdergaat.');
                     // Get a writable stream from the file handle
                     await replaceWithRecovery(activeFile, folderHandlesByPath.get(activeFile.relativePath.split('/').slice(0,-1).join('/')), originalRawContent, newContent);
                 }
@@ -2096,7 +2096,7 @@
             document.getElementById('fileList').innerHTML = `
                 <div class="empty-state">
                     Deze browser kan geen lokale mappen openen.<br><br>
-                    Open deze werkbank in Chrome of Edge op je computer.
+                    Open deze schrijftafel in Chrome of Edge op je computer.
                 </div>
             `;
         } else {

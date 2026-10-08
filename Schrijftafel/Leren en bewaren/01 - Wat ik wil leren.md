@@ -25,7 +25,7 @@ Ik wil begrijpen wat licht, afstand en achtergrond met een foto doen.
 
 ## Bewaren wat helpt
 
-Uitleg, links en eigen observaties verzamel ik in [[Werkbank/Leren en bewaren/02 - Bronnen en ontdekkingen.md|Bronnen en ontdekkingen]].
+Uitleg, links en eigen observaties verzamel ik in [[Schrijftafel/Leren en bewaren/02 - Bronnen en ontdekkingen.md|Bronnen en ontdekkingen]].
 
 ## Terugkijken
 

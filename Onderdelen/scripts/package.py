@@ -8,9 +8,9 @@ with zipfile.ZipFile(output,'w',zipfile.ZIP_DEFLATED) as archive:
   if not name or name.startswith('.'):continue
   source=root/name
   if not source.is_file():continue
-  target=name if name.startswith(('Onderdelen/','Werkbank/')) or name=='▶ Begin hier.html' else 'Onderdelen/Documentatie/'+name
-  archive.write(source,'markdown-werkbank/'+target)
+  target=name if name.startswith(('Onderdelen/','Schrijftafel/')) or name=='▶ Begin hier.html' else 'Onderdelen/Documentatie/'+name
+  archive.write(source,'schrijftafel/'+target)
 with zipfile.ZipFile(output) as archive:
  assert archive.testzip() is None
- assert {n.split('/')[1] for n in archive.namelist()}=={'▶ Begin hier.html','Onderdelen','Werkbank'}
+ assert {n.split('/')[1] for n in archive.namelist()}=={'▶ Begin hier.html','Onderdelen','Schrijftafel'}
 print(output)

@@ -1,10 +1,12 @@
-# Markdown Werkbank
+# Schrijftafel
 
 Een lokale Markdown-werkplek met opgemaakte editor, bestandsbeheer en Focus. Rood, zwart en wit. Je documenten blijven op je eigen computer. Geen account, AI, API-sleutel, server of installatie.
 
+Schrijftafel heette eerder Markdown Werkbank. De nieuwe naam maakt duidelijk waar deze zelfstandige tool voor bedoeld is: schrijven en je teksten beheren.
+
 ## Gebouwd op het werk van Joost Plattel
 
-Markdown Werkbank bouwt voort op de **Markdown Browser van [Joost Plattel](https://github.com/jplattel)**. Zijn browser vormt de oorspronkelijke basis; Erwin Blom heeft die verder ontwikkeld tot deze Nederlandstalige Werkbank met projectkeuze, bestandsbeheer en visueel en Markdown-bewerken.
+Schrijftafel bouwt voort op de **Markdown Browser van [Joost Plattel](https://github.com/jplattel)**. Zijn browser vormt de oorspronkelijke basis; Erwin Blom heeft die verder ontwikkeld tot deze Nederlandstalige Schrijftafel met projectkeuze, bestandsbeheer en visueel en Markdown-bewerken.
 
 Het auteursrecht op het oorspronkelijke werk blijft bij Joost Plattel. Het auteursrecht op de beschermde toevoegingen en wijzigingen ligt bij Erwin Blom en eventuele andere bijdragers. Daarom vermeldt de licentie beide namen. De software wordt verspreid onder de [MIT-licentie](LICENSE).
 
@@ -15,9 +17,9 @@ Het auteursrecht op het oorspronkelijke werk blijft bij Joost Plattel. Het auteu
 
 Dank aan Joost voor de basis en zijn toestemming om deze doorontwikkeling te delen.
 
-![Markdown Werkbank met voorbeeldtekst](Onderdelen/screenshot.png)
+![Schrijftafel met voorbeeldtekst](Onderdelen/screenshot.png)
 
-**[Download de Werkbank](https://github.com/erwinblom/markdown-werkbank-offline/releases/latest/download/markdown-werkbank-offline.zip)** — pak de ZIP volledig uit en open `▶ Begin hier.html` in Chrome of Edge.
+**[Download de Schrijftafel](https://github.com/erwinblom/schrijftafel/releases/latest/download/schrijftafel.zip)** — pak de ZIP volledig uit en open `▶ Begin hier.html` in Chrome of Edge.
 
 **Begin met [START HIER.txt](START%20HIER.txt).** Dit is de zelfstandige offline versie, zonder AI-schrijfpartner.
 
@@ -32,13 +34,13 @@ Houd de HTML, scripts, stijlbestanden en de map `vendor` bij elkaar. Je hoeft ni
 
 ## Meegeleverde demo
 
-De map **Werkbank** in deze download bevat drie bruikbare voorbeeldprojecten:
+De map **Schrijftafel** in deze download bevat drie bruikbare voorbeeldprojecten:
 
 - **Mijn notities** — je week voorbereiden en ideeën verzamelen.
 - **Een project plannen** — een doel uitwerken, acties afvinken en besluiten bijhouden.
 - **Leren en bewaren** — een leervraag onderzoeken en bronnen en ontdekkingen bewaren.
 
-Klik op **+ Project toevoegen** en kies deze meegeleverde map **Werkbank**. De drie submappen verschijnen vanzelf in de projectkeuze. **Werkbank — alles** toont het geheel. Begin met **00 - Begin hier.md**. Alle inhoud is oefenmateriaal dat je mag aanpassen.
+Klik op **+ Project toevoegen** en kies deze meegeleverde map **Schrijftafel**. De drie submappen verschijnen vanzelf in de projectkeuze. **Schrijftafel — alles** toont het geheel. Begin met **00 - Begin hier.md**. Alle inhoud is oefenmateriaal dat je mag aanpassen.
 
 ## Schrijven
 
@@ -49,7 +51,7 @@ Klik op **+ Project toevoegen** en kies deze meegeleverde map **Werkbank**. De d
 - Voeg gewone links, links naar documenten, afbeeldingen en YouTube-links in.
 - **Opslaan** bewaart Markdown en keert terug naar de leesweergave. Zonder wijzigingen is de knop grijs.
 - **Annuleren** vraagt bevestiging als je niet-opgeslagen wijzigingen weggooit.
-- Extra documentgegevens bovenaan een bestand blijven behouden bij opslaan en worden niet in de Werkbank getoond.
+- Extra documentgegevens bovenaan een bestand blijven behouden bij opslaan en worden niet in de Schrijftafel getoond.
 - Documentlinks zijn aanklikbaar; terugverwijzingen staan onderaan het document.
 
 **Sneltoetsen:** ⌘/Ctrl+B vet, ⌘/Ctrl+I cursief, ⌘/Ctrl+S opslaan, ⌘/Ctrl+E bewerken, ⌘/Ctrl+K zoeken. Escape sluit zoeken of annuleert bewerken.
@@ -60,7 +62,7 @@ Klik op **+ Project toevoegen** en kies deze meegeleverde map **Werkbank**. De d
 - **Focus:** verbergt de zijpanelen bij lezen én schrijven. Met Focus sluiten kom je terug.
 - **Inhoud tonen:** aanklikbare inhoudsopgave bij documenten met meerdere koppen.
 - **Nieuw:** bestand of map maken in een zelfgekozen doelmap.
-- **Mappen:** meerdere mappen openen, vernieuwen, loskoppelen of de Werkbank leegmaken. Loskoppelen en leegmaken verwijderen je documenten niet.
+- **Mappen:** meerdere mappen openen, vernieuwen, loskoppelen of de Schrijftafel leegmaken. Loskoppelen en leegmaken verwijderen je documenten niet.
 - Zoek op bestandsnaam en inhoud, wissel lichte/donkere weergave en versleep de rand van de zijbalk.
 - Projectkeuze, uitgeklapte mappen, laatst geopend document en gekoppelde mappen worden lokaal onthouden waar de browser dit toestaat. Opnieuw toestemming geven kan nodig zijn. Bewaar de uitgepakte app op een vaste plek.
 - Verborgen mappen en `node_modules` worden overgeslagen. Een `.ignore` in de geopende hoofdmap kan extra bestanden en mappen uitsluiten.
@@ -69,7 +71,7 @@ Klik op **+ Project toevoegen** en kies deze meegeleverde map **Werkbank**. De d
 
 Editor, zoeken, mapbeheer en lokale afbeeldingen werken zonder internet. Een ingevoegde afbeelding vanaf je computer (maximaal 2 MB) wordt in de Markdown-tekst opgenomen en reist met het bestand mee.
 
-Afbeeldingen via een webadres vragen internet en worden bij weergave van de tekst geladen. Een YouTube-link blijft een gewone link in Markdown; de speler maakt pas verbinding na klikken op **YouTube-video afspelen**. Zonder internet blijft de rest van de Werkbank bruikbaar. Geen analytics of automatische AI-aanroepen.
+Afbeeldingen via een webadres vragen internet en worden bij weergave van de tekst geladen. Een YouTube-link blijft een gewone link in Markdown; de speler maakt pas verbinding na klikken op **YouTube-video afspelen**. Zonder internet blijft de rest van de Schrijftafel bruikbaar. Geen analytics of automatische AI-aanroepen.
 
 ## Grenzen en bestandsveiligheid
 
@@ -98,12 +100,12 @@ Bij **Nieuw** wordt Inbox voorgesteld binnen het geselecteerde project. De map w
 
 ### Vorige versie herstellen
 
-Bij opslaan van wijzigingen bewaart Werkbank eerst de vorige tekst in `.werkbank-herstel` naast het document. Kies **Meer → Vorige versie herstellen**, bekijk de kopie en kies **Deze versie terugzetten**. Ook bij terugzetten blijft de vervangen versie bewaard. Bij een mislukte herstelkopie wordt het origineel niet overschreven.
+Bij opslaan van wijzigingen bewaart Schrijftafel eerst de vorige tekst in `.werkbank-herstel` naast het document. Kies **Meer → Vorige versie herstellen**, bekijk de kopie en kies **Deze versie terugzetten**. Ook bij terugzetten blijft de vervangen versie bewaard. Bij een mislukte herstelkopie wordt het origineel niet overschreven.
 
 Kopieën blijven lokaal en worden niet automatisch opgeruimd. Na hernoemen of verplaatsen blijven eerdere kopieën op hun oorspronkelijke plek; ze verschijnen niet onder de nieuwe naam. Dit is versieherstel, geen prullenbak voor verwijderde bestanden.
 
-Bij de eerste opening toont Werkbank automatisch `00 - Begin hier.md` (of `Begin hier.md`) in de hoofdmap, als dat bestand bestaat. Daarna wordt het laatst geopende document hervat.
+Bij de eerste opening toont Schrijftafel automatisch `00 - Begin hier.md` (of `Begin hier.md`) in de hoofdmap, als dat bestand bestaat. Daarna wordt het laatst geopende document hervat.
 
-De meegeleverde Begin hier-uitleg verschijnt al bij het openen van `▶ Begin hier.html`, zonder maptoestemming. Na het koppelen van een werkmap hervat Werkbank je document. Bij wijzigingen aan de meegeleverde uitleg werkt `node Onderdelen/scripts/embed-introduction.cjs` de ingebouwde versie bij.
+De meegeleverde Begin hier-uitleg verschijnt al bij het openen van `▶ Begin hier.html`, zonder maptoestemming. Na het koppelen van een werkmap hervat Schrijftafel je document. Bij wijzigingen aan de meegeleverde uitleg werkt `node Onderdelen/scripts/embed-introduction.cjs` de ingebouwde versie bij.
 
-De ZIP bevat slechts drie ingangen: **▶ Begin hier.html**, **Werkbank** en **Onderdelen**. Laat deze bij elkaar staan. Ondersteunende bestanden en documentatie zitten in Onderdelen. De sortering in Finder of Verkenner blijft afhankelijk van je instellingen.
+De ZIP bevat slechts drie ingangen: **▶ Begin hier.html**, **Schrijftafel** en **Onderdelen**. Laat deze bij elkaar staan. Ondersteunende bestanden en documentatie zitten in Onderdelen. De sortering in Finder of Verkenner blijft afhankelijk van je instellingen.

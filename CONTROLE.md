@@ -24,4 +24,4 @@ De browserproef gebruikt gesimuleerde maphandles. De echte toestemmingsdialoog, 
 
 De nulmeting voor netwerkverkeer geldt voor de proef. Webafbeeldingen en het bewust afspelen van YouTube kunnen wel verbinding maken; zie PRIVACY.md.
 
-De toestemming van Joost Plattel is op 13 september 2026 verwerkt: de applicatie krijgt MIT met naamsvermelding; bibliotheken houden hun eigen licenties. Zie HERKOMST.md. Dit pakket is voorbereid voor publicatie en nog niet openbaar gepubliceerd.
+De toestemming van Joost Plattel is op 13 september 2026 verwerkt: de applicatie krijgt MIT met naamsvermelding; bibliotheken houden hun eigen licenties. Zie HERKOMST.md. De openbare broncode is beschikbaar op GitHub onder de MIT-licentie.

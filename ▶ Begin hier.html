@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file: 'unsafe-inline'; style-src 'self' file: 'unsafe-inline'; img-src 'self' file: data: blob: https: http:; connect-src 'none'; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'none'">
-<title>Markdown Werkbank</title>
+<title>Schrijftafel</title>
     <script src="Onderdelen/projects.js"></script>
     <script src="Onderdelen/ignore-rules.js"></script>
     <script src="Onderdelen/vendor/marked.min.js"></script>
@@ -1750,11 +1750,11 @@
             color: var(--text-muted);
         }
     </style>
-<meta name="description" content="Je eigen Markdown-bestanden lezen, doorzoeken en bewerken in de Markdown Werkbank.">
+<meta name="description" content="Je eigen Markdown-bestanden lezen, doorzoeken en bewerken in de Schrijftafel.">
 <link rel="stylesheet" href="Onderdelen/style.css">
 </head>
 <body>
-<header class="brandbar"><div class="brand"><span class="local-mark" aria-hidden="true">✛</span> MARKDOWN WERKBANK</div><button class="focus-toggle" id="focusToggle" hidden aria-expanded="false" aria-controls="focusPanel" onclick="toggleFocus()">Inhoud tonen</button></header>
+<header class="brandbar"><div class="brand"><span class="local-mark" aria-hidden="true">✛</span> SCHRIJFTAFEL</div><button class="focus-toggle" id="focusToggle" hidden aria-expanded="false" aria-controls="focusPanel" onclick="toggleFocus()">Inhoud tonen</button></header>
 <div class="projectbar"><span class="eyebrow">PROJECT</span><div class="project-navigation"><button id="previousProject" aria-label="Vorig project" onclick="stepProject(-1)">←</button><select id="projectSelect" aria-label="Actief project" onchange="switchProject(this.value)"><option value="all">Alle bestanden</option></select><button id="nextProject" aria-label="Volgend project" onclick="stepProject(1)">→</button></div><button id="addProject" class="add-project" onclick="addFolder(true)">+ Project toevoegen</button><span id="workspaceTitle" hidden></span><p class="project-help">Een project is een map op je computer. Je kunt meerdere mappen toevoegen.</p></div>
     <button aria-label="Bestanden tonen of verbergen" class="mobile-toggle" onclick="toggleSidebar()">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -1865,7 +1865,7 @@
                             <polyline points="3 6 5 6 21 6"></polyline>
                             <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
                         </svg>
-                        Werkbank leegmaken
+                        Schrijftafel leegmaken
                     </button>
                 </div>
 </div></details></div>
@@ -1887,15 +1887,15 @@
 
         <main class="main">
             <div class="content" id="content">
-<!-- introduction:start --><article class="markdown-content"><p class="eyebrow">BEGIN HIER</p><h1>Je eigen Werkbank</h1>
+<!-- introduction:start --><article class="markdown-content"><p class="eyebrow">BEGIN HIER</p><h1>Je eigen Schrijftafel</h1>
 <p>Deze map bevat drie voorbeeldprojecten die je meteen kunt gebruiken en aanpassen.</p>
 <h2>Open de demomap</h2>
 <ol>
 <li>Klik bovenaan op <strong>+ Project toevoegen</strong>.</li>
-<li>Kies de map <strong>Werkbank</strong> die bij de download zit.</li>
+<li>Kies de map <strong>Schrijftafel</strong> die bij de download zit.</li>
 <li>Open de projectkeuze bovenaan. Wissel tussen <strong>Mijn notities</strong>, <strong>Een project plannen</strong> en <strong>Leren en bewaren</strong>.</li>
 </ol>
-<p><strong>Werkbank — alles</strong> toont de hele demomap. De drie projecten zijn gewone submappen op je computer.</p>
+<p><strong>Schrijftafel — alles</strong> toont de hele demomap. De drie projecten zijn gewone submappen op je computer.</p>
 <h2>Drie manieren om te beginnen</h2>
 <ul>
 <li><strong>Mijn notities</strong>: gedachten verzamelen en je week voorbereiden.</li>

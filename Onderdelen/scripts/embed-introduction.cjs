@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'../..'),marked=require(path.join(root,'Onderdelen/vendor/marked.min.js'));
-const source=fs.readFileSync(path.join(root,'Werkbank/00 - Begin hier.md'),'utf8');
+const source=fs.readFileSync(path.join(root,'Schrijftafel/00 - Begin hier.md'),'utf8');
 // Linked demo documents require a folder permission; show their names until then.
 const html=marked.parse(source.replace(/\[\[[^|\]]+\|([^\]]+)\]\]/g,'**$1**'));
 const file=path.join(root,'▶ Begin hier.html');let page=fs.readFileSync(file,'utf8');

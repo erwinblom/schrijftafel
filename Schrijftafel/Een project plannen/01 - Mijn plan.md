@@ -37,7 +37,7 @@ Een uitgebreid thema, versiering en een ingewikkeld menu zijn voor dit voorbeeld
 
 ## Acties bijhouden
 
-De afvinkbare lijst staat in [[Werkbank/Een project plannen/02 - Acties en besluiten.md|Acties en besluiten]].
+De afvinkbare lijst staat in [[Schrijftafel/Een project plannen/02 - Acties en besluiten.md|Acties en besluiten]].
 
 ## Mijn eigen versie
 

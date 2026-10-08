@@ -2,7 +2,7 @@
 
 ## Oorspronkelijke browser
 
-Markdown Werkbank bouwt voort op de Markdown Browser van **[Joost Plattel](https://github.com/jplattel)**. Hij beschrijft het idee van een lokaal HTML-bestand als app in [A file is the app](https://jplattel.nl/post/2026-03-10-a-file-is-the-app/), gepubliceerd op 10 maart 2026. Het artikel verwijst naar het [oorspronkelijke HTML-bestand](https://files.jplattel.nl/2026/03/X0dnV6.html).
+Schrijftafel bouwt voort op de Markdown Browser van **[Joost Plattel](https://github.com/jplattel)**. Hij beschrijft het idee van een lokaal HTML-bestand als app in [A file is the app](https://jplattel.nl/post/2026-03-10-a-file-is-the-app/), gepubliceerd op 10 maart 2026. Het artikel verwijst naar het [oorspronkelijke HTML-bestand](https://files.jplattel.nl/2026/03/X0dnV6.html).
 
 Erwin Blom heeft de browser verder laten ontwikkelen tot een Nederlandstalige offline werkplek met projectkeuze, bestandsbeheer, opgemaakte editor, Focus en neutrale voorbeeldprojecten.
 
@@ -21,4 +21,4 @@ De toestemming is privé vastgelegd; de mail en persoonlijke contactgegevens wor
 - Onbereikbare Word-importfuncties en de daarvoor geladen Mammoth-bundel weggelaten; Word-import behoort niet tot de beschreven offline interface.
 - Geen persoonlijke Chief-gegevens, hostingkoppeling, AI-sleutels of privégeschiedenis in dit pakket.
 
-De oorspronkelijke werkmappen en de privé-Werkbank blijven afzonderlijk bestaan.
+De oorspronkelijke werkmappen en de privé-Schrijftafel blijven afzonderlijk bestaan.

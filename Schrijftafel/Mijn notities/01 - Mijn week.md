@@ -21,7 +21,7 @@ Een rustige plek voor wat ik deze week wil doen. De voorbeelden kun je direct ve
 
 ## Losse gedachten
 
-Niet alles hoeft meteen een taak te worden. Nieuwe invallen zet ik in [[Werkbank/Mijn notities/02 - Ideeen en invallen.md|Ideeën en invallen]].
+Niet alles hoeft meteen een taak te worden. Nieuwe invallen zet ik in [[Schrijftafel/Mijn notities/02 - Ideeen en invallen.md|Ideeën en invallen]].
 
 ## Terugkijken
 

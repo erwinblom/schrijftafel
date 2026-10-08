@@ -1,6 +1,6 @@
 # Bronnen en ontdekkingen
 
-Bij [[Werkbank/Leren en bewaren/01 - Wat ik wil leren.md|Wat ik wil leren]].
+Bij [[Schrijftafel/Leren en bewaren/01 - Wat ik wil leren.md|Wat ik wil leren]].
 
 ## Een bron bewaren
 
@@ -39,4 +39,4 @@ Kies **Bewerken → Afbeelding toevoegen** en selecteer een eigen foto. Een loka
 - Bewaar een link als je de uitleg later nodig hebt.
 - Verbind een ontdekking aan een volgende oefening.
 
-Een nieuw idee kan ook naar [[Werkbank/Mijn notities/02 - Ideeen en invallen.md|Ideeën en invallen]].
+Een nieuw idee kan ook naar [[Schrijftafel/Mijn notities/02 - Ideeen en invallen.md|Ideeën en invallen]].
