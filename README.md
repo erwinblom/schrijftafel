@@ -1,5 +1,9 @@
 # Schrijftafel
 
+## Waarom ik dit deel
+
+Ik ben geen programmeur en geen designer. Met AI maak ik tools en skills die ik zelf nodig heb. Ik deel ze om te laten zien wat er nu mogelijk is, je enthousiast te maken en je op gang te helpen. Gebruik dit als vertrekpunt: bouw erop voort en maak het passend bij jouw werk, smaak en wensen.
+
 ## Joost legde de basis, ik bouwde verder met AI
 
 Joost Plattel maakte de oorspronkelijke Markdown Browser. Ik bedacht wat ik voor mijn eigen schrijfwerk nog miste en werkte de aanvullingen met AI uit. Nu mag jij verder: andere knoppen, een eigen werkwijze of iets wat ik nog niet heb bedacht. Met of zonder AI als bouwmaatje. Begin met een kopie en één kleine aanpassing; controleer daarna openen, bewaren en heropenen. De oorspronkelijke credits en licenties blijven staan.
