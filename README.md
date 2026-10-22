@@ -1,12 +1,16 @@
 # Schrijftafel
 
+## Joost legde de basis, ik bouwde verder met AI
+
+Joost Plattel maakte de oorspronkelijke Markdown Browser. Ik bedacht wat ik voor mijn eigen schrijfwerk nog miste en werkte de aanvullingen met AI uit. Nu mag jij verder: andere knoppen, een eigen werkwijze of iets wat ik nog niet heb bedacht. Met of zonder AI als bouwmaatje. Begin met een kopie en één kleine aanpassing; controleer daarna openen, bewaren en heropenen. De oorspronkelijke credits en licenties blijven staan.
+
 Een lokale Markdown-werkplek met opgemaakte editor, bestandsbeheer en Focus. Rood, zwart en wit. Je documenten blijven op je eigen computer. Geen account, AI, API-sleutel, server of installatie.
 
 Schrijftafel heette eerder Markdown Werkbank. De nieuwe naam maakt duidelijk waar deze zelfstandige tool voor bedoeld is: schrijven en je teksten beheren.
 
 ## Gebouwd op het werk van Joost Plattel
 
-Schrijftafel bouwt voort op de **Markdown Browser van [Joost Plattel](https://github.com/jplattel)**. Zijn browser vormt de oorspronkelijke basis; Erwin Blom heeft die verder ontwikkeld tot deze Nederlandstalige Schrijftafel met projectkeuze, bestandsbeheer en visueel en Markdown-bewerken.
+Schrijftafel bouwt voort op de **Markdown Browser van [Joost Plattel](https://github.com/jplattel)**. Zijn browser vormt de oorspronkelijke basis; Erwin Blom heeft die met AI verder ontwikkeld tot deze Nederlandstalige Schrijftafel met projectkeuze, bestandsbeheer en visueel en Markdown-bewerken.
 
 Het auteursrecht op het oorspronkelijke werk blijft bij Joost Plattel. Het auteursrecht op de beschermde toevoegingen en wijzigingen ligt bij Erwin Blom en eventuele andere bijdragers. Daarom vermeldt de licentie beide namen. De software wordt verspreid onder de [MIT-licentie](LICENSE).
 
