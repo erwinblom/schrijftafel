@@ -4,7 +4,7 @@
 
 ![Schrijftafel met voorbeeldtekst](Onderdelen/screenshot.png)
 
-**[Download de Schrijftafel](https://github.com/erwinblom/schrijftafel/releases/latest/download/schrijftafel.zip)** — pak de ZIP volledig uit en open `▶ Begin hier.html` in Chrome of Edge.
+**[Download de Schrijftafel](https://github.com/erwinblom/schrijftafel/releases/download/v1.4.1/schrijftafel.zip)** — pak de ZIP volledig uit en open `▶ Begin hier.html` in Chrome of Edge.
 
 Gratis · Geen account · Geen installatie · Je documenten blijven op je computer
 
@@ -74,7 +74,7 @@ Bij de eerste opening toont Schrijftafel automatisch `00 - Begin hier.md` (of `B
 
 De meegeleverde Begin hier-uitleg verschijnt al bij het openen van `▶ Begin hier.html`, zonder maptoestemming. Na het koppelen van een werkmap hervat Schrijftafel je document. Bij wijzigingen aan de meegeleverde uitleg werkt `node Onderdelen/scripts/embed-introduction.cjs` de ingebouwde versie bij.
 
-De ZIP bevat slechts drie ingangen: **▶ Begin hier.html**, **Schrijftafel** en **Onderdelen**. Laat deze bij elkaar staan. Ondersteunende bestanden en documentatie zitten in Onderdelen. De sortering in Finder of Verkenner blijft afhankelijk van je instellingen.
+De ZIP bevat slechts drie ingangen: **▶ Begin hier.html**, **Schrijftafel** en **Onderdelen**. Laat deze bij elkaar staan. Ondersteunende bestanden, waaronder AGENTS.md, zitten in Onderdelen/Documentatie. De sortering in Finder of Verkenner blijft afhankelijk van je instellingen.
 
 ## Maak het van jezelf
 
