@@ -1,35 +1,16 @@
 # Schrijftafel
 
-## Waarom ik dit deel
-
-Ik ben geen programmeur en geen designer. Met AI maak ik tools en skills die ik zelf nodig heb. Ik deel ze om te laten zien wat er nu mogelijk is, je enthousiast te maken en je op gang te helpen. Gebruik dit als vertrekpunt: bouw erop voort en maak het passend bij jouw werk, smaak en wensen.
-
-## Joost legde de basis, ik bouwde verder met AI
-
-Joost Plattel maakte de oorspronkelijke Markdown Browser. Ik bedacht wat ik voor mijn eigen schrijfwerk nog miste en werkte de aanvullingen met AI uit. Nu mag jij verder: andere knoppen, een eigen werkwijze of iets wat ik nog niet heb bedacht. Met of zonder AI als bouwmaatje. Begin met een kopie en één kleine aanpassing; controleer daarna openen, bewaren en heropenen. De oorspronkelijke credits en licenties blijven staan.
-
-Een lokale Markdown-werkplek met opgemaakte editor, bestandsbeheer en Focus. Rood, zwart en wit. Je documenten blijven op je eigen computer. Geen account, AI, API-sleutel, server of installatie.
-
-Schrijftafel heette eerder Markdown Werkbank. De nieuwe naam maakt duidelijk waar deze zelfstandige tool voor bedoeld is: schrijven en je teksten beheren.
-
-## Gebouwd op het werk van Joost Plattel
-
-Schrijftafel bouwt voort op de **Markdown Browser van [Joost Plattel](https://github.com/jplattel)**. Zijn browser vormt de oorspronkelijke basis; Erwin Blom heeft die met AI verder ontwikkeld tot deze Nederlandstalige Schrijftafel met projectkeuze, bestandsbeheer en visueel en Markdown-bewerken.
-
-Het auteursrecht op het oorspronkelijke werk blijft bij Joost Plattel. Het auteursrecht op de beschermde toevoegingen en wijzigingen ligt bij Erwin Blom en eventuele andere bijdragers. Daarom vermeldt de licentie beide namen. De software wordt verspreid onder de [MIT-licentie](LICENSE).
-
-- [Joost Plattel op GitHub](https://github.com/jplattel)
-- [De oorspronkelijke Markdown Browser (HTML-bestand)](https://files.jplattel.nl/2026/03/X0dnV6.html)
-- [Joosts toelichting: A file is the app](https://jplattel.nl/post/2026-03-10-a-file-is-the-app/)
-- [Herkomst, toestemming en licenties](HERKOMST.md)
-
-Dank aan Joost voor de basis en zijn toestemming om deze doorontwikkeling te delen.
+**Een lokale werkplek om in Markdown te schrijven en je teksten te beheren.**
 
 ![Schrijftafel met voorbeeldtekst](Onderdelen/screenshot.png)
 
 **[Download de Schrijftafel](https://github.com/erwinblom/schrijftafel/releases/latest/download/schrijftafel.zip)** — pak de ZIP volledig uit en open `▶ Begin hier.html` in Chrome of Edge.
 
-**Begin met [START HIER.txt](START%20HIER.txt).** Dit is de zelfstandige offline versie, zonder AI-schrijfpartner.
+Gratis · Geen account · Geen installatie · Je documenten blijven op je computer
+
+> **Klaar voor gebruik, en te personaliseren.** Het werkt zoals het is. Wil je het naar je eigen hand zetten, dan kan dat ook. [Spring naar: maak het van jezelf](#maak-het-van-jezelf).
+
+Een lokale Markdown-werkplek met opgemaakte editor, bestandsbeheer en Focus. Rood, zwart en wit. Je documenten blijven op je eigen computer. Geen account, AI, API-sleutel, server of installatie.
 
 ## Beginnen
 
@@ -39,6 +20,8 @@ Dank aan Joost voor de basis en zijn toestemming om deze doorontwikkeling te del
 4. Open links een Markdown-bestand en kies **Bewerken**.
 
 Houd de HTML, scripts, stijlbestanden en de map `vendor` bij elkaar. Je hoeft niets te installeren of te starten. De projectkeuze volgt de geopende mappen en hun directe submappen. De zijbalk toont je eigen mapnamen, zonder voorgeschreven werkwijze.
+
+**Begin met [START HIER.txt](START%20HIER.txt).** Dit is de zelfstandige offline versie, zonder AI-schrijfpartner.
 
 ## Meegeleverde demo
 
@@ -50,7 +33,9 @@ De map **Schrijftafel** in deze download bevat drie bruikbare voorbeeldprojecten
 
 Klik op **+ Project toevoegen** en kies deze meegeleverde map **Schrijftafel**. De drie submappen verschijnen vanzelf in de projectkeuze. **Schrijftafel — alles** toont het geheel. Begin met **00 - Begin hier.md**. Alle inhoud is oefenmateriaal dat je mag aanpassen.
 
-## Schrijven
+## Wat kun je ermee
+
+### Schrijven
 
 - Kies **Markdown** om de brontekst te plakken of bewerken; **Visueel** toont weer de opgemaakte editor. Bewaren doe je met **Opslaan**.
 
@@ -64,7 +49,7 @@ Klik op **+ Project toevoegen** en kies deze meegeleverde map **Schrijftafel**. 
 
 **Sneltoetsen:** ⌘/Ctrl+B vet, ⌘/Ctrl+I cursief, ⌘/Ctrl+S opslaan, ⌘/Ctrl+E bewerken, ⌘/Ctrl+K zoeken. Escape sluit zoeken of annuleert bewerken.
 
-## Meer, Focus en mappen
+### Meer, Focus en mappen
 
 - **Meer** is beschikbaar tijdens lezen én bewerken: naam wijzigen, verplaatsen naar een eigen map, definitief verwijderen na bevestiging. Verwijderen gaat niet via de prullenmand.
 - **Focus:** verbergt de zijpanelen bij lezen én schrijven. Met Focus sluiten kom je terug.
@@ -74,33 +59,6 @@ Klik op **+ Project toevoegen** en kies deze meegeleverde map **Schrijftafel**. 
 - Zoek op bestandsnaam en inhoud, wissel lichte/donkere weergave en versleep de rand van de zijbalk.
 - Projectkeuze, uitgeklapte mappen, laatst geopend document en gekoppelde mappen worden lokaal onthouden waar de browser dit toestaat. Opnieuw toestemming geven kan nodig zijn. Bewaar de uitgepakte app op een vaste plek.
 - Verborgen mappen en `node_modules` worden overgeslagen. Een `.ignore` in de geopende hoofdmap kan extra bestanden en mappen uitsluiten.
-
-## Offline en media
-
-Editor, zoeken, mapbeheer en lokale afbeeldingen werken zonder internet. Een ingevoegde afbeelding vanaf je computer (maximaal 2 MB) wordt in de Markdown-tekst opgenomen en reist met het bestand mee.
-
-Afbeeldingen via een webadres vragen internet en worden bij weergave van de tekst geladen. Een YouTube-link blijft een gewone link in Markdown; de speler maakt pas verbinding na klikken op **YouTube-video afspelen**. Zonder internet blijft de rest van de Schrijftafel bruikbaar. Geen analytics of automatische AI-aanroepen.
-
-## Grenzen en bestandsveiligheid
-
-- Chrome en Edge op desktop zijn de doelbrowsers. Firefox, Safari en mobiel ondersteunen deze mapbediening niet volledig.
-- Geopende hoofdmappen moeten verschillende namen hebben. Kies anders een gezamenlijke bovenliggende map.
-- Interne links verwijzen naar documentpaden. Hernoemen of verplaatsen past bestaande verwijzingen niet automatisch aan.
-- Relatieve afbeeldingspaden in al bestaande documenten worden niet via de gekozen map opgelost. Gebruik Afbeelding toevoegen om een lokale afbeelding mee te bewaren.
-- Bij opslaan wordt gecontroleerd of de brontekst elders veranderd is. Bij verschil blijft je bewerking in de editor staan en wordt het bestand niet overschreven. Dit is geen editor voor gelijktijdige samenwerking.
-- Hernoemen/verplaatsen kopieert eerst, controleert de inhoud en het origineel, en verwijdert daarna de bron. Bij een fout kunnen beide bestanden blijven staan.
-- Opgemaakt bewerken kan de Markdown-notatie normaliseren (bijvoorbeeld lijsttekens en witruimte). Maak voor eerste gebruik een proefmap of back-up, zeker bij documenten met bijzondere HTML.
-- Grote mappen kosten meer tijd om te doorzoeken.
-
-## Ontwikkeling en distributie
-
-Geen buildstap. Alle benodigde bibliotheken zitten in `vendor`, met hun licenties. De licenties per onderdeel staan in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). De applicatie is beschikbaar onder de [MIT-licentie](LICENSE), met toestemming en naamsvermelding van oorspronkelijke maker Joost Plattel. Zie [HERKOMST.md](HERKOMST.md). Publiceren op GitHub is niet nodig om lokaal te werken.
-
-De browserproef staat in `tests/smoke.cjs`. Met Node, Playwright en Chrome beschikbaar: `node tests/smoke.cjs`. Dit zijn alleen ontwikkelgereedschappen, geen gebruiksvereisten. De proef opent de app via `file://` en gebruikt gesimuleerde maphandles. De echte browserdialoog voor maptoestemming moet bij eerste gebruik apart worden gecontroleerd.
-
-## Privacy en uitgavestatus
-
-Lees [PRIVACY.md](PRIVACY.md) voor lokale opslag en externe media. Deze map is een voorbereidingspakket, nog geen openbare uitgave. De originele privéversie en privégeschiedenis horen niet in een publieke repository.
 
 ### Startmap per project
 
@@ -117,3 +75,78 @@ Bij de eerste opening toont Schrijftafel automatisch `00 - Begin hier.md` (of `B
 De meegeleverde Begin hier-uitleg verschijnt al bij het openen van `▶ Begin hier.html`, zonder maptoestemming. Na het koppelen van een werkmap hervat Schrijftafel je document. Bij wijzigingen aan de meegeleverde uitleg werkt `node Onderdelen/scripts/embed-introduction.cjs` de ingebouwde versie bij.
 
 De ZIP bevat slechts drie ingangen: **▶ Begin hier.html**, **Schrijftafel** en **Onderdelen**. Laat deze bij elkaar staan. Ondersteunende bestanden en documentatie zitten in Onderdelen. De sortering in Finder of Verkenner blijft afhankelijk van je instellingen.
+
+## Maak het van jezelf
+
+Joost Plattel maakte de oorspronkelijke Markdown Browser. Ik bedacht wat ik voor mijn eigen schrijfwerk nog miste en werkte de aanvullingen met AI uit. Nu mag jij verder: andere knoppen, een eigen werkwijze of iets wat ik nog niet heb bedacht. Met of zonder AI als bouwmaatje. Begin met een kopie en één kleine aanpassing; controleer daarna openen, bewaren en heropenen. De oorspronkelijke credits en licenties blijven staan.
+
+**Zonder AI:** open `Onderdelen/style.css` in een teksteditor. Bovenaan staan de kleuren van de donkere en de lichte weergave. Verander een waarde, bewaar en herlaad de pagina. Er is geen bouwstap: wat je opslaat, werkt meteen.
+
+**Met AI als bouwmaatje:**
+
+1. Maak een kopie van de hele uitgepakte map. Houd je werkende versie apart.
+2. Open de kopie in een AI-werkomgeving zoals Codex of Claude Code. Of geef een chat de complete map.
+3. Vraag één verandering. Controleer daarna openen, bewaren en heropenen met de meegeleverde demo.
+
+Kopieer deze opdracht:
+
+> Dit is Schrijftafel. Ik ben geen programmeur. Lees eerst AGENTS.md en de README. Ik gebruik [Mac/Windows/Linux]. Mijn wens: [één verandering]. Werk in een kopie, behoud wat volgens AGENTS.md heel moet blijven en vertel wat je werkelijk hebt getest. Geef het complete aangepaste project terug als je mijn map niet kunt bewerken. Publiceer of verstuur niets.
+
+In de download staat `AGENTS.md` in `Onderdelen/Documentatie`.
+
+**Ideeën, van makkelijk naar ambitieus:**
+
+1. Een andere accentkleur of een ander lettertype voor je tekst.
+2. Je eigen naam in de kop.
+3. Een woordenteller of leestijd bij je document.
+4. Een eigen knop in de opmaakbalk, bijvoorbeeld voor een vaste alinea.
+5. Sjablonen voor nieuwe documenten, zoals een weekplanning of verslag.
+6. Een exportknop naar Word of PDF.
+
+## Waar blijft mijn werk
+
+Je documenten staan als gewone Markdown-bestanden in de map die je zelf kiest. Lees [PRIVACY.md](PRIVACY.md) voor lokale opslag en externe media.
+
+### Offline en media
+
+Editor, zoeken, mapbeheer en lokale afbeeldingen werken zonder internet. Een ingevoegde afbeelding vanaf je computer (maximaal 2 MB) wordt in de Markdown-tekst opgenomen en reist met het bestand mee.
+
+Afbeeldingen via een webadres vragen internet en worden bij weergave van de tekst geladen. Een YouTube-link blijft een gewone link in Markdown; de speler maakt pas verbinding na klikken op **YouTube-video afspelen**. Zonder internet blijft de rest van de Schrijftafel bruikbaar. Geen analytics of automatische AI-aanroepen.
+
+## Grenzen
+
+- Chrome en Edge op desktop zijn de doelbrowsers. Firefox, Safari en mobiel ondersteunen deze mapbediening niet volledig.
+- Geopende hoofdmappen moeten verschillende namen hebben. Kies anders een gezamenlijke bovenliggende map.
+- Interne links verwijzen naar documentpaden. Hernoemen of verplaatsen past bestaande verwijzingen niet automatisch aan.
+- Relatieve afbeeldingspaden in al bestaande documenten worden niet via de gekozen map opgelost. Gebruik Afbeelding toevoegen om een lokale afbeelding mee te bewaren.
+- Bij opslaan wordt gecontroleerd of de brontekst elders veranderd is. Bij verschil blijft je bewerking in de editor staan en wordt het bestand niet overschreven. Dit is geen editor voor gelijktijdige samenwerking.
+- Hernoemen/verplaatsen kopieert eerst, controleert de inhoud en het origineel, en verwijdert daarna de bron. Bij een fout kunnen beide bestanden blijven staan.
+- Opgemaakt bewerken kan de Markdown-notatie normaliseren (bijvoorbeeld lijsttekens en witruimte). Maak voor eerste gebruik een proefmap of back-up, zeker bij documenten met bijzondere HTML.
+- Grote mappen kosten meer tijd om te doorzoeken.
+
+## Waarom ik dit deel
+
+Ik ben geen programmeur en geen designer. Met AI maak ik tools en skills die ik zelf nodig heb. Ik deel ze om te laten zien wat er nu mogelijk is, je enthousiast te maken en je op gang te helpen. Gebruik dit als vertrekpunt: bouw erop voort en maak het passend bij jouw werk, smaak en wensen.
+
+## Licentie en credits
+
+### Gebouwd op het werk van Joost Plattel
+
+Schrijftafel bouwt voort op de **Markdown Browser van [Joost Plattel](https://github.com/jplattel)**. Zijn browser vormt de oorspronkelijke basis; Erwin Blom heeft die met AI verder ontwikkeld tot deze Nederlandstalige Schrijftafel met projectkeuze, bestandsbeheer en visueel en Markdown-bewerken.
+
+Het auteursrecht op het oorspronkelijke werk blijft bij Joost Plattel. Het auteursrecht op de beschermde toevoegingen en wijzigingen ligt bij Erwin Blom en eventuele andere bijdragers. Daarom vermeldt de licentie beide namen. De software wordt verspreid onder de [MIT-licentie](LICENSE).
+
+- [Joost Plattel op GitHub](https://github.com/jplattel)
+- [De oorspronkelijke Markdown Browser (HTML-bestand)](https://files.jplattel.nl/2026/03/X0dnV6.html)
+- [Joosts toelichting: A file is the app](https://jplattel.nl/post/2026-03-10-a-file-is-the-app/)
+- [Herkomst, toestemming en licenties](HERKOMST.md)
+
+Dank aan Joost voor de basis en zijn toestemming om deze doorontwikkeling te delen.
+
+Schrijftafel heette eerder Markdown Werkbank. De nieuwe naam maakt duidelijk waar deze zelfstandige tool voor bedoeld is: schrijven en je teksten beheren.
+
+### Ontwikkeling en distributie
+
+Geen buildstap. Alle benodigde bibliotheken zitten in `vendor`, met hun licenties. De licenties per onderdeel staan in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). De applicatie is beschikbaar onder de [MIT-licentie](LICENSE), met toestemming en naamsvermelding van oorspronkelijke maker Joost Plattel. Zie [HERKOMST.md](HERKOMST.md). Publiceren op GitHub is niet nodig om lokaal te werken.
+
+De browserproef staat in `tests/smoke.cjs`. Met Node, Playwright en Chrome beschikbaar: `node tests/smoke.cjs`. Dit zijn alleen ontwikkelgereedschappen, geen gebruiksvereisten. De proef opent de app via `file://` en gebruikt gesimuleerde maphandles. De echte browserdialoog voor maptoestemming moet bij eerste gebruik apart worden gecontroleerd.
