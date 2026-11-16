@@ -18,6 +18,10 @@ De drie voorbeeldprojecten bevatten alleen oefenteksten.
 Je eigen bestanden gebruiken? Voeg daarna je eigen werkmap toe.
 Houd ▶ Begin hier.html, alle scripts, stijlen en vendor bij elkaar.
 
+AANPASSEN
+Wil je Schrijftafel naar je hand zetten? In Onderdelen/Documentatie/AGENTS.md
+staan instructies voor je AI-bouwmaatje. Werk in een kopie.
+
 WERKT IETS NIET?
 - Geen mapkeuze: controleer dat je Chrome of Edge op een computer gebruikt.
 - Geen toegang meer: voeg de map opnieuw toe en geef opnieuw toestemming.
